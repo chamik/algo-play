@@ -9,14 +9,16 @@ README = (HERE / "README.md").read_text()
 
 # This call to setup() does all the work
 setup(
-    name="replit-play",
-    version="0.0.23",
+    name="algo-play",
+    version="0.0.24",
     description="The easiest way to make games and media projects in Python.",
     long_description=README,
     long_description_content_type="text/markdown",
     url="https://github.com/replit/play",
     author="Repl.it",
     author_email="gchiacchieri@gmail.com",
+    maintainer="chamik",
+    maintainer_email="code@chamik.eu",
     license="MIT",
     classifiers=[
         "License :: OSI Approved :: MIT License",
@@ -24,7 +26,7 @@ setup(
         "Programming Language :: Python :: 3.7",
     ],
     python_requires=">=3.5",
-    packages=["play"],
+    packages=["algo-play"],
     include_package_data=True,
     install_requires=["pygame", "numpy", "pymunk"],
 )
