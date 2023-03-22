@@ -10,7 +10,7 @@ README = (HERE / "README.md").read_text()
 # This call to setup() does all the work
 setup(
     name="algo-play",
-    version="0.0.24",
+    version="0.0.25",
     description="The easiest way to make games and media projects in Python.",
     long_description=README,
     long_description_content_type="text/markdown",
@@ -26,7 +26,7 @@ setup(
         "Programming Language :: Python :: 3.7",
     ],
     python_requires=">=3.5",
-    packages=["algo-play"],
+    packages=["algoplay"],
     include_package_data=True,
     install_requires=["pygame", "numpy", "pymunk"],
 )

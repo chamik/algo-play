@@ -1,0 +1,15 @@
+MANIFEST.in
+README.md
+example.gif
+requirements.txt
+setup.py
+algoplay/__init__.py
+algoplay/color.py
+algoplay/exceptions.py
+algoplay/keypress.py
+algoplay/play.py
+algoplay.egg-info/PKG-INFO
+algoplay.egg-info/SOURCES.txt
+algoplay.egg-info/dependency_links.txt
+algoplay.egg-info/requires.txt
+algoplay.egg-info/top_level.txt
